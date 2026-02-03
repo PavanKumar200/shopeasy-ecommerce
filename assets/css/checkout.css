@@ -1,0 +1,73 @@
+/* ========== ORDER CONFIRMATION PAGE ========== */
+.order-confirmation-page {
+    padding: 80px 0;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.confirmation-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 60px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.success-icon {
+    font-size: 80px;
+    color: #27ae60;
+    margin-bottom: 30px;
+}
+
+.confirmation-card h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.confirmation-card p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.order-details {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.order-details h3 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.order-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.order-info-row strong {
+    color: #2c3e50;
+}
+
+.order-info-row span {
+    color: #3498db;
+}
+
+.confirmation-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.confirmation-actions .btn {
+    padding: 12px 30px;
+}

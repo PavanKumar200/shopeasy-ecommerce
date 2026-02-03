@@ -1,0 +1,74 @@
+/* ========== GLOBAL STYLES ========== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ========== CARD HOVER EFFECTS ========== */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+/* ========== PRODUCT IMAGES ========== */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ========== NAVBAR ========== */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* ========== SCROLL TO TOP ========== */
+#scrollToTop {
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+#scrollToTop:hover {
+    transform: scale(1.1);
+}
+
+/* ========== CAROUSEL HEIGHT ========== */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+/* ========== PRODUCT VIEW ========== */
+.product-main-img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-thumbnail {
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+}
+
+.product-thumbnail:hover,
+.product-thumbnail.active {
+    border-color: #0d6efd;
+}
+
+/* ========== FILTER SIDEBAR ========== */
+.filter-sidebar {
+    position: sticky;
+    top: 80px;
+}
